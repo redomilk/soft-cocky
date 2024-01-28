@@ -45,18 +45,15 @@
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"raceButton","path":"objects/raceButton/raceButton.yy",},},
     {"id":{"name":"Controller","path":"objects/Controller/Controller.yy",},},
+    {"id":{"name":"Cockroach","path":"objects/Cockroach/Cockroach.yy",},},
+    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
+    {"id":{"name":"Lobby","path":"rooms/Lobby/Lobby.yy",},},
+    {"id":{"name":"RaceRoom","path":"rooms/RaceRoom/RaceRoom.yy",},},
     {"id":{"name":"roachClassSelect","path":"objects/roachClassSelect/roachClassSelect.yy",},},
     {"id":{"name":"font_title","path":"fonts/font_title/font_title.yy",},},
-    {"id":{"name":"Cockroach","path":"objects/Cockroach/Cockroach.yy",},},
-<<<<<<< Updated upstream
-    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
-=======
     {"id":{"name":"roachSelector","path":"sprites/roachSelector/roachSelector.yy",},},
     {"id":{"name":"SelectorBackground","path":"sprites/SelectorBackground/SelectorBackground.yy",},},
->>>>>>> Stashed changes
-    {"id":{"name":"Lobby","path":"rooms/Lobby/Lobby.yy",},},
     {"id":{"name":"RoachSelect","path":"rooms/RoachSelect/RoachSelect.yy",},},
-    {"id":{"name":"RaceRoom","path":"rooms/RaceRoom/RaceRoom.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Lobby","path":"rooms/Lobby/Lobby.yy",},},
