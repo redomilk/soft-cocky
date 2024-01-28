@@ -3,5 +3,10 @@
   "ResourceOrderSettings": [
     {"name":"Lizard","order":1,"path":"objects/Lizard/Lizard.yy",},
     {"name":"Sprite11","order":1,"path":"sprites/Sprite11/Sprite11.yy",},
+    {"name":"font_cock","order":2,"path":"fonts/font_cock/font_cock.yy",},
+    {"name":"playButton","order":1,"path":"objects/playButton/playButton.yy",},
+    {"name":"button2","order":1,"path":"sprites/button2/button2.yy",},
+    {"name":"font_titlescreen","order":1,"path":"fonts/font_titlescreen/font_titlescreen.yy",},
+    {"name":"HomeRoom","order":1,"path":"rooms/HomeRoom/HomeRoom.yy",},
   ],
 }
