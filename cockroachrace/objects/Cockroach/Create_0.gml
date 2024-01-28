@@ -7,3 +7,4 @@ race_start = false;
 player_roach = false;
 game_controller = instance_find(Controller, 0);
 name = "Cockroach";
+dead = false;

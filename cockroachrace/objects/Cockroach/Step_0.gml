@@ -1,4 +1,8 @@
 if(room = RaceRoom) {
+	if(dead) {
+		speed = 0;
+		visible = false;
+	}
 	var distanceFromCenter = sqrt(sqr(x-room_width/2 + sprite_width/2) + sqr(y-room_height/2 + sprite_height/2));
 	if(distanceFromCenter > instance_find(Ring, 0).sprite_width/2 && !array_contains(game_controller.winners, id)) {
 		array_push(game_controller.winners, id);
