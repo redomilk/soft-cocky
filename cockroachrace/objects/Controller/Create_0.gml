@@ -1,10 +1,10 @@
 randomize();
 // [ name, sprite, speed, turn probability, size ]
 classes = [
-["Smokybrown", Sprite1, 0.5, 50],
-["Turkestan", Sprite7, 1, 40],
-["Florida Spotted", Sprite4, 1.5, 30],
-["Gisborne", Sprite6, 2, 20]
+["Smokybrown", Sprite1, 0.5, 30],
+["Turkestan", Sprite7, 1, 50],
+["Florida Woods", Sprite4, 1.5, 70],
+["Gisborne", Sprite6, 2, 90]
 ];
 
 possiblenames = [
