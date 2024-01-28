@@ -1,8 +1,11 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"roachClassFlorida","order":3,"path":"objects/roachClassFlorida/roachClassFlorida.yy",},
+    {"name":"roachClassTurkestan","order":2,"path":"objects/roachClassTurkestan/roachClassTurkestan.yy",},
     {"name":"font_cock","order":2,"path":"fonts/font_cock/font_cock.yy",},
     {"name":"playButton","order":1,"path":"objects/playButton/playButton.yy",},
+    {"name":"roachClassGisborne","order":4,"path":"objects/roachClassGisborne/roachClassGisborne.yy",},
     {"name":"button2","order":1,"path":"sprites/button2/button2.yy",},
     {"name":"font_titlescreen","order":1,"path":"fonts/font_titlescreen/font_titlescreen.yy",},
     {"name":"HomeRoom","order":1,"path":"rooms/HomeRoom/HomeRoom.yy",},
