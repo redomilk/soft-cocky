@@ -17,6 +17,9 @@ possiblenames = [
 usednames = [];
 
 
+for(var j = 0; j < 6; j++) {
+	instance_create_layer(0,0,layer,Cockroach);
+}
 player_roach = instance_find(Cockroach, 0);
 for(var i = 1; i < instance_number(Cockroach); i++) {
 	var class_index = floor(random_range(0, array_length(classes)));
@@ -30,11 +33,13 @@ for(var i = 1; i < instance_number(Cockroach); i++) {
 		while(array_contains(usednames, rand_name)) {
 			var rand_name = possiblenames[floor(random_range(0,array_length(possiblenames)))];
 		}
+		show_debug_message(rand_name);
 		cur_roach.name = rand_name;
 		array_push(usednames, rand_name);
 	}
 }
 player_roach.player_roach = true;
-player_roach.sprite_index = Sprite3;
+player_roach.x = room_width/2 + player_roach.sprite_width/2;
+player_roach.y = 2*room_height/3 - sprite_height/2;
 race_start = false;
 winners = [];

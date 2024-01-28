@@ -28,7 +28,7 @@ if(room = RaceRoom) {
 	image_xscale = 2;
 	image_yscale = 2;
 	x = room_width/2 - sprite_width/2;
-	y = 2*room_height/3 - sprite_height/2 + 100;
+	y = 2*room_height/3 - sprite_height/2;
 } else {
 	visible = false;
 }
