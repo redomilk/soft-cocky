@@ -1,7 +1,7 @@
 {
   "resourceType": "GMProject",
   "resourceVersion": "1.7",
-  "name": "cockroachrace",
+  "name": "Cockroach Racing",
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
@@ -34,10 +34,23 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Ring","path":"objects/Ring/Ring.yy",},},
+    {"id":{"name":"lobbyBackground","path":"sprites/lobbyBackground/lobbyBackground.yy",},},
+    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"raceButton","path":"objects/raceButton/raceButton.yy",},},
+    {"id":{"name":"Controller","path":"objects/Controller/Controller.yy",},},
+    {"id":{"name":"Cockroach","path":"objects/Cockroach/Cockroach.yy",},},
+    {"id":{"name":"Lobby","path":"rooms/Lobby/Lobby.yy",},},
+    {"id":{"name":"RaceRoom","path":"rooms/RaceRoom/RaceRoom.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Lobby","path":"rooms/Lobby/Lobby.yy",},},
+    {"roomId":{"name":"RaceRoom","path":"rooms/RaceRoom/RaceRoom.yy",},},
+    {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
