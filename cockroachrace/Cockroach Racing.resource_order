@@ -1,6 +1,10 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"Lizard","order":1,"path":"objects/Lizard/Lizard.yy",},
+    {"name":"font_cock","order":2,"path":"fonts/font_cock/font_cock.yy",},
+    {"name":"playButton","order":1,"path":"objects/playButton/playButton.yy",},
+    {"name":"Sprite11","order":1,"path":"sprites/Sprite11/Sprite11.yy",},
     {"name":"roachClassFlorida","order":3,"path":"objects/roachClassFlorida/roachClassFlorida.yy",},
     {"name":"roachClassTurkestan","order":2,"path":"objects/roachClassTurkestan/roachClassTurkestan.yy",},
     {"name":"font_cock","order":2,"path":"fonts/font_cock/font_cock.yy",},
